@@ -1,0 +1,121 @@
+.wrapperMain {
+    background: var(--background);
+    height: 100vh;
+    padding-left: 147px;
+}
+.greetings{
+    margin-top: 80px;
+    color: var(--primary-primary);
+font-family: Jost-Medium;
+font-size: 44px;
+font-style: normal;
+font-weight: 500;
+line-height: 58px; 
+}
+.greetingsText{
+    margin-top: 10px;
+    color: var(--primary-secondary);
+font-family: Jost-Regular;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.title{
+    margin-top: 60px;
+    color: var(--primary-primary);
+font-family: Jost-Medium;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.categoryList{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 30px;
+    @media screen and (min-width: 768px) {
+    flex-direction: row;
+    
+    gap: 16px;
+    
+    
+    // gap: 16px;
+    
+  }
+}
+.pictureVoting{
+     display: flex; 
+  justify-content: center; 
+  align-items: center; 
+    // position: relative;
+    width: 138px;
+height: 198px;
+border-radius: 20px;
+border: 4px solid rgba(255, 255, 255, 0.60);
+background: var(--color-voting);
+}
+.imgVoting{
+    
+    // position: absolute;
+    // width: 100%;
+    // height: 100%;
+    object-fit: cover;
+    background: var(--color-voting);
+}
+.pictureBreeds{
+     display: flex; 
+  justify-content: center; 
+  align-items: center; 
+    width: 138px;
+height: 198px;
+border-radius: 20px;
+border: 4px solid rgba(255, 255, 255, 0.60);
+background: var(--color-breeds);
+}
+.imgBreeds{
+    //  position: absolute;
+    //  object-fit: cover;
+    
+    background: var(--color-breeds);
+}
+.pictureGallery{
+     display: flex; 
+  justify-content: center; 
+  align-items: center; 
+    width: 138px;
+height: 198px;
+border-radius: 20px;
+border: 4px solid rgba(255, 255, 255, 0.60);
+background: var(--color-gallery);
+}
+
+.buttonCategory{
+    margin-top: 10px;
+    color: var(--primary-accent);
+text-align: center;
+width: 100%;
+padding-bottom: 10px;
+padding-top: 10px;
+font-family: Jost-Medium;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 133.333% */
+letter-spacing: 2px;
+
+border: none;
+border-radius: 10px;
+background: var(--background-secondary);
+@media screen and (min-width: 768px) {
+    width: 138px;
+  }
+}
+.buttonCategory:hover{
+    background: var(--background-hover);
+}
+.buttonCategory:focus{
+    color: #FFF;
+    background: var(--background-active);
+}
