@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/CuteCats/static/css/main.7acaea2f.css",
-    "main.js": "/CuteCats/static/js/main.07d3183d.js",
+    "main.css": "/CuteCats/static/css/main.4d29a316.css",
+    "main.js": "/CuteCats/static/js/main.754dc832.js",
+    "static/media/Jost-Medium.ttf": "/CuteCats/static/media/Jost-Medium.6b59eccdfbb145802814.ttf",
+    "static/media/Jost-Regular.ttf": "/CuteCats/static/media/Jost-Regular.ca33bfb0214ee2e6936a.ttf",
     "index.html": "/CuteCats/index.html",
-    "main.7acaea2f.css.map": "/CuteCats/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/CuteCats/static/js/main.07d3183d.js.map"
+    "main.4d29a316.css.map": "/CuteCats/static/css/main.4d29a316.css.map",
+    "main.754dc832.js.map": "/CuteCats/static/js/main.754dc832.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.4d29a316.css",
+    "static/js/main.754dc832.js"
   ]
 }
